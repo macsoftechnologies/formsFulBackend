@@ -3,5 +3,5 @@ export class formsManageDto{
     @IsNotEmpty()
     Email: string
     @IsNotEmpty()
-    Allow?: boolean
+    Allow?: string
 }
